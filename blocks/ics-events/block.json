@@ -1,0 +1,24 @@
+{
+    "name": "butler/ics-events",
+    "title": "ICS Events List",
+    "description": "Allows for the creation of an events list and includes the ability to download an ICS file for specified events. If the download button is clicked and no events are specified, downloads all of the events.",
+    "style": "block-ics-events",
+    "editorStyle": "file:./editor-style.css",
+    "category": "butler",
+    "icon": "list-view",
+    "apiVersion": 2,
+    "keywords": [ "event list", "download calendar", "downloadable", "events checklist", "ics", "ics file", "ics events", "ics list" ],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "align": [ "full" ],
+        "anchor": true,
+        "alignContent": false,
+        "inserter": true
+    },
+    "attributes": {
+    }
+}

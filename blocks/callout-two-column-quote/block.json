@@ -1,0 +1,29 @@
+{
+    "name": "acf/callout-two-column-quote",
+    "title": "Two Column: Quote",
+    "description": "Two column callout with a quote in one column and an image in the other.",
+	"style": ["block-callout-two-column-quote", "component-button-link-right"],
+    "editorStyle": "file:./editor-style.css",
+    "script": [ "gsap", "gsap-scrollTrigger", "gsap-scrollToPlugin", "block-callout-two-column-quote" ],
+    "category": "butler",
+    "icon": "text-page",
+    "apiVersion": 2,
+    "keywords": [ "quote", "quotation", "two columns", "double column", "picture with quote", "scrolling quote" ],
+    "acf": {
+		"mode": "preview",
+		"renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "align": [ "full", "wide" ],
+        "anchor": true,
+        "alignContent": false,
+        "color": false
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "full"
+        }
+    }
+}

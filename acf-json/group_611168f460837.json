@@ -1,0 +1,66 @@
+{
+    "key": "group_611168f460837",
+    "title": "Global \/ Colors",
+    "fields": [
+        {
+            "key": "field_61116917c3070",
+            "label": "Color",
+            "name": "value",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "none": "None (may use a default color in some cases for accessibility)",
+                "primary": "Butler Blue",
+                "blue-bright": "Bright Blue",
+                "blue": "Medium Blue",
+                "green": "Forest",
+                "green-alt": "Forest Alt",
+                "orange": "Gold",
+                "pink": "Rose",
+                "pink-alt": "Rose Alt",
+                "yellow": "Yellow",
+                "seafoam": "Seafoam"
+            },
+            "default_value": "",
+            "return_format": "value",
+            "allow_null": 0,
+            "other_choice": 0,
+            "layout": "vertical",
+            "save_other_choice": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1706126449
+}

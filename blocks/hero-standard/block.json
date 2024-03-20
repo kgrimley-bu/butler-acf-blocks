@@ -1,0 +1,29 @@
+{
+    "name": "acf/hero-standard",
+    "title": "Hero - Standard",
+    "description": "This is the standard hero used for most instances on the site. Includes a subheadline, description, 1-2 buttons, image, and social media links.",
+	"style": ["block-hero-standard"],
+    "editorStyle": "file:./editor-style.css",
+    "category": "butler",
+    "icon": "text-page",
+    "apiVersion": 2,
+    "keywords": [ "hero", "default hero", "hero default", "base hero", "image and text with buttons", "social media" ],
+    "acf": {
+		"mode": "preview",
+		"renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "align": [ "full" ],
+        "anchor": true,
+        "alignContent": false,
+        "color": false
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "full"
+        }
+    }
+    
+}

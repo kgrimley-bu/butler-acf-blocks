@@ -1,0 +1,34 @@
+{
+    "name": "butler/jump-finder",
+    "title": "Jump Finder",
+    "description": "A highly stylized accordion/dropdown that displays a list of links.",
+	"style": [
+        "block-jump-finder",
+        "plyr-main",
+        "plyr-custom"
+    ],
+    "editorStyle": "file:./editor-style.css",
+    "script": [ "plyr", "block-jump-finder" ],
+    "category": "butler",
+    "icon": "text-page",
+    "apiVersion": 2,
+    "keywords": [ "finder", "accordion", "dropdown" ],
+    "acf": {
+		"mode": "preview",
+		"renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "align": [ "full" ],
+        "anchor": true,
+        "alignContent": false,
+        "color": false
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "full"
+        }
+    }
+    
+}

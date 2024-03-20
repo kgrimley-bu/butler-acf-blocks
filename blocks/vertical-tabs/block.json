@@ -1,0 +1,24 @@
+{
+    "name": "acf/vertical-tabs",
+    "title": "Vertical Tabs",
+    "description": "Tabs block",
+    "editorStyle": "file:./editor.css",
+    "style": ["block-vertical-tabs"],
+    "script": ["block-vertical-tabs"],
+    "category": "butler",
+    "icon": "text-page",
+    "apiVersion": 2,
+    "keywords": ["tabs", "vertical", "primacy"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "align": false,
+        "anchor": true,
+        "alignContent": false,
+        "color": false
+    },
+    "attributes": {}
+}

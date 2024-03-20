@@ -1,0 +1,22 @@
+{
+    "name": "acf/callout-two-column-cards",
+    "title": "Two Column Cards",
+    "description": "Two column cards. Allows for a headline with two cards, each with a headline, image, and a link.",
+    "style": ["block-callout-two-column-cards"],
+    "category": "butler",
+    "icon": "text-page",
+    "apiVersion": 2,
+    "keywords": ["two column", "cards", "primacy"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "align": ["full"],
+        "anchor": true,
+        "alignContent": false,
+        "color": false
+    },
+    "attributes": {}
+}

@@ -1,0 +1,35 @@
+{
+    "name": "acf/callout-one-column-two-buttons",
+    "title": "One column: Two buttons",
+    "description": "Simple heading with buttons",
+    "style": [
+        "block-callout-one-column-two-buttons",
+        "component-button"
+    ],
+    "editorStyle": "file:./editor.css",
+    "script": "",
+    "category": "butler",
+    "icon": "carrot",
+    "apiVersion": 2,
+    "keywords": [ "callout", "button", "buttons" ],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "align": [ "full" ],
+        "anchor": true,
+        "alignContent": false,
+        "color": {
+            "link": true,
+            "gradients": true
+        }
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "none"
+        }
+    }
+}

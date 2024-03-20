@@ -1,0 +1,24 @@
+{
+    "name": "acf/link-list",
+    "title": "Link List",
+    "description": "Block allowing for a headline, description, and two columns of links.",
+	"style": ["component-headline-highlight", "component-button-solid", "block-link-list"],
+    "editorStyle": "file:./editor-style.css",
+    "category": "butler",
+    "icon": "text-page",
+    "apiVersion": 2,
+    "keywords": [ "link", "list of links", "menu", "link menu" ],
+    "acf": {
+		"mode": "preview",
+		"renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "align": [ "full" ],
+        "anchor": true,
+        "alignContent": false,
+        "color": false
+    },
+    "attributes": {
+    }
+}

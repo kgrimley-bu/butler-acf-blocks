@@ -1,0 +1,23 @@
+{
+    "name": "acf/program-finder",
+    "title": "Program finder",
+    "description": "Block that performs a search of programs given the context of the post type (and assoc taxonomy) you are on",
+    "style": ["block-program-finder"],
+    "script": ["block-program-finder"],
+    "category": "butler",
+    "icon": "text-page",
+    "apiVersion": 2,
+    "keywords": ["primacy"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "align": false,
+        "anchor": true,
+        "alignContent": false,
+        "color": false
+    },
+    "attributes": {}
+}

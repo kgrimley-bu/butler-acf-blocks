@@ -1,0 +1,24 @@
+{
+    "name": "acf/program-hero",
+    "title": "Program Hero",
+    "description": "Block that serves as the Title area for a program.  It contains shopping-cart functionality to save programs for later.",
+    "style": ["block-program-hero"],
+    "editorStyle": "file:./editor.css",
+    "script": [],
+    "category": "butler",
+    "icon": "text-page",
+    "apiVersion": 2,
+    "keywords": ["primacy"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "align": false,
+        "anchor": true,
+        "alignContent": false,
+        "color": false
+    },
+    "attributes": {}
+}

@@ -1,0 +1,14 @@
+.entry-content > .quote-cards-wrapper {
+	padding: 10px 60px;
+	.slick-slider {
+		margin-left: -10px;
+		margin-right: -10px;
+	}
+}
+
+@media (max-width: 1300px) {
+	body.butler-majors .entry-content > .quote-cards-wrapper {
+		padding-left: 70px;
+		padding-right: 70px;
+	}
+}

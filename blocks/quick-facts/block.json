@@ -1,0 +1,24 @@
+{
+    "name": "acf/quick-facts",
+    "title": "Quick Facts",
+    "description": "Display of basic stats",
+    "style": "block-quick-facts",
+    "script": "",
+    "category": "butler",
+    "icon": "carrot",
+    "apiVersion": 2,
+    "keywords": [ "facts", "stats" ],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "align": [ "full" ],
+        "anchor": true,
+        "alignContent": false,
+        "color": false
+    },
+    "attributes": {
+    }
+}

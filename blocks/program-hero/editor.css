@@ -1,0 +1,19 @@
+#editor {
+	--font-size-large: 40px;
+	--color-theme-green: #50d683;
+	--color-theme-yellow: #edeb00;
+	--color-alt-butler-gray: #89cfc3;
+	--font-size-supermax: 112px;
+	--font-size-largest: 78px;
+	--font-size-larger: 62px;
+	--font-size-large: 40px;
+	--font-weight-header: 600
+}
+
+#editor.site-main .entry-content {
+	padding-top: 0
+}
+
+#editor .back-row-link {
+	color: #fff
+}

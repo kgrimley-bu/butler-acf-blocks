@@ -1,0 +1,29 @@
+{
+    "name": "acf/search-results",
+    "title": "Search Results",
+    "description": "Display search results",
+    "style": [
+        "block-search-results"
+    ],
+    "script": [
+        "algolia-instantsearch",
+        "block-search-results"
+    ],
+    "category": "butler",
+    "icon": "carrot",
+    "apiVersion": 2,
+    "keywords": [ "search", "results" ],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "align": [ "full" ],
+        "anchor": true,
+        "alignContent": false,
+        "color": false
+    },
+    "attributes": {
+    }
+}

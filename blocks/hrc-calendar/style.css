@@ -1,0 +1,78 @@
+.hrc-calendar {
+	margin: 60px auto;
+}
+
+/* This needs to live somewhere else */
+.wysiwyg__content .wysiwyg__tableWrapper {
+	position: relative;
+	margin: 24px 0
+}
+
+.wysiwyg__content .wysiwyg__tableWrapper:after {
+	content: "";
+	display: block;
+	background-image: linear-gradient(to right,rgba(255,255,255,0),white);
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 80px;
+	z-index: 1;
+	transition: .1s linear opacity
+}
+
+@media (min-width: 768px) {
+	.wysiwyg__content .wysiwyg__tableWrapper:after {
+		display:none
+	}
+}
+
+.wysiwyg__content .wysiwyg__tableWrapper--scroll-end:after {
+	opacity: 0
+}
+
+.wysiwyg__content table {
+	display: block;
+	overflow-x: auto;
+	height: auto!important;
+	order: 2;
+	margin: 24px auto
+}
+
+.wysiwyg__content table thead {
+	border-bottom: 1px solid var(--color-theme-gray)
+}
+
+.wysiwyg__content table thead th {
+	padding: 18px;
+	line-height: 1em;
+	font-size: 18px;
+	color: var(--color-theme-primary);
+	font-family: var(--font-family-secondary);
+	font-weight: 400;
+	text-align: left
+}
+
+.wysiwyg__content table tbody tr td {
+	padding: 18px
+}
+
+.wysiwyg__content table tbody tr th {
+	font-weight: 700;
+	font-size: 18px;
+	padding: 18px;
+	text-align: left
+}
+
+.wysiwyg__content table tbody tr {
+	border-bottom: 1px solid var(--color-theme-gray);
+	background-color: var(--color-theme-white)
+}
+
+.wysiwyg__content table tbody tr:nth-child(odd) {
+	background-color: var(--color-theme-grey-light)
+}
+
+.wysiwyg__content table tbody tr:nth-child(even) {
+	background-color: var(--color-theme-white)
+}

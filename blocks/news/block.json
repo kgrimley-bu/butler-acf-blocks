@@ -1,0 +1,26 @@
+{
+    "name": "acf/news",
+    "title": "News",
+    "description": "Full width block displaying news articles based on tag and category.",
+    "script": [ "swiper", "block-news" ],
+    "editorStyle": "file:./editor-style.css",
+	"style": [ "block-news", "swiper-main" ],
+    "category": "butler",
+    "icon": "text-page",
+    "apiVersion": 2,
+    "keywords": [ "news", "article", "articles", "stories" ],
+    "acf": {
+		"mode": "preview",
+		"renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "align": [ "full" ],
+        "anchor": true,
+        "alignContent": false,
+        "color": false
+    },
+    "attributes": {
+    }
+    
+}

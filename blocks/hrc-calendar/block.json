@@ -1,0 +1,23 @@
+{
+    "name": "acf/hrc-calendar",
+    "title": "HRC Calendar",
+    "description": "Display the upcoming events/activities happening at the HRC.",
+	"style": [ "block-hrc-calendar" ],
+    "category": "butler",
+    "icon": "text-page",
+    "apiVersion": 2,
+    "keywords": [ "hrc", "calendar", "events"],
+    "acf": {
+		"mode": "preview",
+		"renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "align": [ "full" ],
+        "anchor": true,
+        "alignContent": false,
+        "color": false
+    },
+    "attributes": {
+    }
+}

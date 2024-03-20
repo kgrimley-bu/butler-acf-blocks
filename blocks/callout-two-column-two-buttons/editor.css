@@ -1,0 +1,23 @@
+#editor .editor-styles-wrapper .wp-block-acf-callout-two-column-two-buttons h2 {
+	font-size: 78px;
+	line-height: 71px;
+	font-weight: 600;
+	text-transform: uppercase
+}
+
+#editor .editor-styles-wrapper .wp-block-acf-callout-two-column-two-buttons .callout-two-column-two-buttons__links a {
+	color: var(--color-theme-primary);
+	font-size: 18px
+}
+
+#editor .editor-styles-wrapper {
+	--color-theme-green: #5d7b22;
+	--color-theme-yellow: #edeb00;
+	--color-alt-butler-gray: #89cfc3;
+	--font-size-supermax: 112px;
+	--font-size-largest: 78px;
+	--font-size-larger: 62px;
+	--font-size-large: 40px;
+	font-size: 18px;
+	--font-weight-header: 600;
+}

@@ -1,0 +1,26 @@
+{
+    "name": "butler/quote-card",
+    "title": "Quote Card",
+    "description": "Card block that can appear in a Quote Cards carousel",
+    "style": ["block-quote-card"],
+    "editorStyle": "file:./editor.css",
+    "category": "butler",
+    "icon": "",
+    "apiVersion": 2,
+    "keywords": ["quote", "card", "quote-card"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "align": false,
+        "align_text": false,
+        "multiple": true,
+        "color": {
+            "background": false
+        },
+        "jsx": true
+    },
+    "attributes": {}
+}

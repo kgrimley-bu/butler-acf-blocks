@@ -1,0 +1,23 @@
+{
+    "name": "butler/events",
+    "title": "Events",
+    "description": "Full width block showcasing one to four Events happening at Butler.",
+	"style": "block-events",
+    "category": "butler",
+    "icon": "text-page",
+    "apiVersion": 2,
+    "keywords": [ "event", "calendar", "date", "news", "function", "on-campus" ],
+    "acf": {
+		"mode": "preview",
+		"renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "anchor": true,
+        "alignContent": false,
+        "color": false
+    },
+    "attributes": {
+    }
+    
+}

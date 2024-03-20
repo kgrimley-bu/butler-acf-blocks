@@ -1,0 +1,24 @@
+.editor-styles-wrapper .news__heading h2.wysiwyg-content {
+	font-family: var(--secondary-font-family);
+	font-size: var(--font-size-largest);
+}
+
+.editor-styles-wrapper .news__card > span {
+	display: block;
+	height: 100%;
+	text-decoration: none;
+	color: inherit;
+	border-radius: 15px;
+	overflow: hidden;
+	background-color: var(--color-theme-grey-light);
+}
+
+.news__cards .swiper-slide {
+	flex-shrink: unset !important;
+}
+
+@media (max-width: 767px) {
+	.swiper-slide {
+		flex-shrink: 0 !important;
+	}
+}

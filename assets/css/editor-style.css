@@ -1,0 +1,38 @@
+/* Plugin wide editor CSS */
+
+html :where(.wp-block) {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/* Would prefer these to be in a component editor-style.css but currently can't get it to work. */
+.editor-styles-wrapper ul.social-media__menuList {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.editor-styles-wrapper .sidebar-menu--hasHero {
+	margin-top: -40px;
+}
+
+@media (min-width: 768px) {
+	.editor-styles-wrapper .sidebar-menu--hasHero {
+		margin-top: -56px;
+	}
+}
+
+@media (min-width: 1280px) {
+	.editor-styles-wrapper .sidebar-menu--hasHero {
+		margin-top: -56px;
+	}
+}
+
+.editor-styles-wrapper .button-solid:hover .button-solid__label {
+	color: var(--color-theme-yellow);
+}
+
+.editor-styles-wrapper .headline-highlight {
+	font-weight: 600;
+}

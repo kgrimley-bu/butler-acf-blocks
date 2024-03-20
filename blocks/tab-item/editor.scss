@@ -1,0 +1,37 @@
+.editor-styles-wrapper {
+	.tabgroup-wrapper {
+		padding: 20px;
+		background: #13294b40;
+		border: 1px solid #13294b40;
+
+		&:before {
+			content: "Tab Group";
+			position: absolute;
+			top: 1px;
+			left: 1px;
+			font-size: 0.9rem;
+			background: #fff;
+			padding: 1px 4px;
+			line-height: 1;
+		}
+	}
+
+	.tabgroup.horizontal {
+		background: #fff;
+
+		.tab {
+			position: relative;
+			top: 6px;
+			background-color: var(--color-theme-green) !important;
+			z-index: 1;
+
+			&:hover {
+				background-color: var(--color-theme-green);
+			}
+		}
+	}
+
+	.tabgroup.horizontal .tabitem-content {
+		border-top: 10px solid var(--color-theme-green);
+	}
+}

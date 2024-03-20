@@ -1,0 +1,200 @@
+.events {
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+
+.events__container {
+	position: relative;
+}
+
+/* Should we move this to a global style and rename the classes? */
+.events__moreLink {
+	margin-top: 24px;
+}
+.visible-mobile > .events__moreButton {
+	display: none;
+}
+
+@media (max-width: 992px) {
+	.events__heading > .events__moreButton {
+		display: none;
+	}
+	.visible-mobile > .events__moreButton {
+		display: block;
+	}
+}
+
+@media (min-width: 768px) {
+	.events__moreLink {
+		margin-top: 0;
+	}
+}
+
+
+.events__wrapper {
+	grid-gap: 24px;
+}
+
+.events__headline {
+	margin-bottom: 24px;
+	color: var(--color-theme-primary);
+}
+
+.events__card {
+	grid-column: span 12 / span 12;
+	background-color: var(--color-theme-primary);
+	color: white;
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+@media (max-width: 768px) {
+	.events__card + .events__card {
+		margin-top: 15px;
+	}
+}
+
+@media (min-width: 1024px) {
+	.events__card {
+		grid-column: span 6 / span 6;
+	}
+}
+
+.t-h5 {
+	font-family: var(--secondary-font-family);
+	font-size: calc(2.125rem + (50 - 34) * ((100vw - 300px) / (1600 - 300)));
+	line-height: 1;
+	font-weight: 600;
+}
+
+.t-h3 {
+	font-family: var(--secondary-font-family);
+	font-size: calc(3.375rem + (68 - 54) * ((100vw - 300px) / (1600 - 300)));
+	line-height: 1;
+	font-weight: 600;
+}
+
+.grid-default {
+	display: block;
+}
+
+@media (min-width: 768px) {
+	.grid-default {
+		display: grid;
+		grid-template-columns: repeat(12, minmax(0, 1fr));
+		-moz-column-gap: 40px;
+		column-gap: 40px;
+	}
+}
+
+/****************************************************************/
+
+.esports-events__card:hover,
+.esports-events__card:focus {
+	background-color: var(--color-theme-gray-medium) !important;
+}
+
+.events__cardLink {
+	padding: 24px;
+	min-height: 160px;
+	height: 100%;
+	color: white;
+	text-decoration: none;
+}
+
+.events__cardLink:hover {
+	background-color: var(--color-theme-blue-bright);
+	color: var(--color-theme-primary);
+}
+
+.events__cardLink:focus {
+	box-shadow: 0 0 0 4px var(--color-theme-blue-bright);
+}
+
+.esports-events__card .events__cardLink:hover,
+.esports-events__card .events__cardLink:focus {
+	background-color: transparent;
+}
+
+.events__cardTitle {
+	grid-column: span 9 / span 9;
+}
+
+@media (min-width: 768px) {
+	.events__cardTitle {
+		grid-column: span 9 / span 10;
+	}
+}
+
+.events__date {
+	grid-column: span 2 / span 2;
+	justify-self: end;
+	font-weight: 300 !important;
+	color: var(--color-theme-secondary);
+}
+
+.events__card:hover .events__date {
+	color: var(--color-theme-primary);
+}
+
+.events__meta {
+	grid-column: span 12 / span 12;
+	align-self: flex-end;
+	color: var(--color-theme-blue-bright);
+	font-size: 18px;
+	margin-bottom: 0;
+}
+
+.events__card:hover .events__meta {
+	color: var(--color-theme-primary);
+}
+
+.events__moreButton {
+	--button-color: var(--color-blue-butler);
+	--hover-color: var(--color-blue-medium);
+	--hover-color-fill: var(--color-blue-butler);
+	color: var(--color-theme-primary);
+	font-weight: 600;
+	display: block;
+	padding: 10px 0;
+	transition: .1s linear all;
+	align-self: flex-end;
+	justify-self: flex-end;
+}
+
+.events__moreButton:hover {
+	color: var(--color-theme-blue-bright);
+	text-decoration: none;
+}
+
+.events__moreButton:before {
+	content: "";
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background-image: url(../../assets/images/solid_arrow_blue_butler.svg);
+	background-repeat: no-repeat;
+	background-size: 14px auto;
+	background-position: center center;
+	margin-right: 16px;
+	vertical-align: middle;
+	transition: .1s linear all;
+	border-radius: 50%;
+	border: 2px solid var(--color-theme-primary);
+}
+
+.events__moreButton:hover:before, .events__moreButton:focus:before {
+	background-color: var(--color-theme-primary);
+	background-image: url(../../assets/images/solid_arrow_white.svg);
+}
+
+.events__heading {
+	display: flex;
+	align-items: initial;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.events__heading .events__headline {
+	text-transform: uppercase;
+}

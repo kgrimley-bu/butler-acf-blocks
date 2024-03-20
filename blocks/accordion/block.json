@@ -1,0 +1,25 @@
+{
+    "name": "butler/accordion",
+    "title": "Accordion",
+    "description": "Accordion block allowing nesting of other blocks inside.",
+    "style": "block-accordion",
+    "script": "",
+    "category": "butler",
+    "icon": "text-page",
+    "apiVersion": 2,
+    "keywords": [ "accordion", "dropdown", "nesting", "show/hide" ],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "align": [ "wide" ],
+        "anchor": true,
+        "alignContent": false,
+        "color": false,
+        "mode": false
+    },
+    "attributes": {
+    }
+}

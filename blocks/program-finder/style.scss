@@ -1,0 +1,62 @@
+.program-box-container {
+	list-style-type: none;
+}
+
+li.ais-InfiniteHits-item.program-box {
+	list-style-type: none;
+}
+
+.ais-InfiniteHits-loadMore--disabled {
+	display: none;
+}
+
+#algolia-hits {
+	text-align: center;
+
+	.program-box {
+		text-align: left;
+	}
+}
+
+button.ais-InfiniteHits-loadMore {
+	border: none;
+	background: transparent;
+	font-size: var(--font-size-mobile-large);
+	font-family: var(--secondary-font-family);
+	font-weight: 600;
+	text-transform: uppercase;
+
+	&:after {
+		content: "+";
+	}
+
+	&:hover,
+	&:focus {
+		text-decoration: underline;
+	}
+}
+
+.program-finder .headline-highlight > .headline-highlight__text {
+	font-size: inherit;
+	padding: 0 5px 0;
+}
+
+.content-row {
+	display: grid;
+	grid-template-columns: 1fr;
+	align-items: center;
+
+	& > p {
+		padding-right: 0;
+	}
+
+
+	@media (min-width: 768px) {
+		grid-template-columns: 1fr 1fr;
+		padding-bottom: 50px;
+
+		& > p {
+			padding-right: 200px;
+		}
+	}
+}

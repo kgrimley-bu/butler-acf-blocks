@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="18px" viewBox="0 0 31 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="Admissions-&amp;-Aid" transform="translate(-1201.000000, -2966.000000)" stroke="#13294B" stroke-width="4">
+            <g id="grid" transform="translate(61.500000, 2431.000000)">
+                <g id="financial-aid-card" transform="translate(662.500000, 378.000000)">
+                    <g id="major-search" transform="translate(-4.274120, 10.092842)">
+                        <g id="dropdown" transform="translate(38.274120, 126.907158)">
+                            <g id="Group" transform="translate(446.000000, 23.000000)">
+                                <line x1="0.545454545" y1="0.545454545" x2="11.4545455" y2="11.4545455" id="Line"></line>
+                                <line x1="11.5833333" y1="11.4545455" x2="24.4166667" y2="0.545454545" id="Line"></line>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

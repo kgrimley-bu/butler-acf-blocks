@@ -1,0 +1,28 @@
+{
+    "name": "acf/tab-item",
+    "title": "Tab Item",
+    "description": "Tab item",
+    "style": ["block-tab-item"],
+    "editorStyle": "file:./editor.css",
+    "script": [],
+    "category": "butler",
+    "icon": "<svg width=\"80px\" height=\"80px\" viewBox=\"0 0 80 80\" xmlns=\"http://www.w3.org/2000/svg\">\n    <g id=\"icon-tab-item\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n        <path d=\"M31.0453442,11.6287145 L31.0453442,27 L75,27 L75,75 L5,75 L5,27 L10.2507421,27 L10.2507421,11.6287145 L31.0453442,11.6287145 Z\" id=\"Rectangle\" stroke=\"#000000\" stroke-width=\"4\"></path>\n        <rect id=\"Rectangle\" fill=\"#000000\" x=\"13\" y=\"35\" width=\"54\" height=\"32\"></rect>\n    </g>\n</svg>",
+    "apiVersion": 2,
+    "keywords": ["tab", "item", "primacy"],
+    "parent": ["acf/tab-group"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "align": false,
+        "align_text": true,
+        "multiple": true,
+        "color": {
+            "background": false
+        },
+        "jsx": true
+    },
+    "attributes": {}
+}

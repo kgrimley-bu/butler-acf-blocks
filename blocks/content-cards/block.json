@@ -1,0 +1,22 @@
+{
+    "name": "acf/content-cards",
+    "title": "Content Cards",
+    "description": "Content cards",
+    "style": ["block-content-cards", "component-headline-highlight"],
+    "category": "butler",
+    "icon": "text-page",
+    "apiVersion": 2,
+    "keywords": ["primacy"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "align": false,
+        "anchor": true,
+        "alignContent": false,
+        "color": false
+    },
+    "attributes": {}
+}

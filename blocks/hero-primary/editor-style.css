@@ -1,0 +1,19 @@
+.editor-styles-wrapper h1.hero-primary__headline {
+	font-family: var(--secondary-font-family);
+	font-weight: 700;
+	color: var(--color-theme-blue-bright);
+	line-height: 0.8em;
+	font-size: 87px;
+}
+
+@media (min-width: 768px) {
+	.editor-styles-wrapper h1.hero-primary__headline {
+		font-size: 120px;
+	}
+}
+
+@media (min-width: 1280px) {
+	.editor-styles-wrapper h1.hero-primary__headline {
+		font-size: 220px;
+	}
+}

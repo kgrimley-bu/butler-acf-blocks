@@ -1,0 +1,30 @@
+{
+    "name": "acf/full-width-video-image",
+    "title": "Full Width Video/Image",
+    "description": "Full-width block showcasing a full-width video or image.",
+	"style": "block-full-width-video-image",
+    "editorStyle": "file:./editor-style.css",
+    "script": [ "plyr", "gsap", "gsap-scrollTrigger", "gsap-scrollToPlugin", "block-full-width-video-image" ],
+    "category": "butler",
+    "icon": "text-page",
+    "apiVersion": 2,
+    "keywords": [ "video", "picture", "full", "width", "video banner", "large picture", "scrolling video", "scrolling image", "full-width" ],
+    "acf": {
+		"mode": "preview",
+		"renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "align": [ "full" ],
+        "anchor": true,
+        "alignContent": false,
+        "color": false
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "full"
+        }
+    }
+    
+}

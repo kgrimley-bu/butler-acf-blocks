@@ -1,0 +1,31 @@
+{
+    "name": "acf/two-column-text-links-image",
+    "title": "Two Column: Text/Buttons/Image",
+    "description": "This component is meant to serve as a callout for important information and up to 2 CTAs, where the first CTA is solid and primary and the second is ghosted. ",
+    "style": [
+        "block-two-column-text-links-image",
+        "component-button-solid"
+    ],
+    "editorStyle": "file:./editor-style.css",
+    "category": "butler",
+    "icon": "carrot",
+    "apiVersion": 2,
+    "keywords": [ "billboard", "image", "buttons", "two column buttons", "text columns", "text image buttons"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "align": [ "full" ],
+        "anchor": true,
+        "alignContent": false,
+        "inserter": true
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "full"
+        }
+    }
+}

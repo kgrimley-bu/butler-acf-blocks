@@ -1,0 +1,30 @@
+{
+  "name": "butler/program-search-autocomplete",
+  "title": "Program search autocomplete",
+  "description": "Block that performs a search of programs with a typeahead dropdown",
+  "style": [
+    "block-program-search-autocomplete"
+  ],
+  "editorStyle": "file:./editor.css",
+  "script": [
+    "block-program-search-autocomplete"
+  ],
+  "category": "butler",
+  "icon": "text-page",
+  "apiVersion": 2,
+  "keywords": [
+    "primacy"
+  ],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "render.php"
+  },
+  "styles": [],
+  "supports": {
+    "align": false,
+    "anchor": true,
+    "alignContent": false,
+    "color": false
+  },
+  "attributes": {}
+}

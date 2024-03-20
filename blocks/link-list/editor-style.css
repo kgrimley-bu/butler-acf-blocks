@@ -1,0 +1,12 @@
+.editor-styles-wrapper .link-list__list {
+	list-style: none;
+}
+
+.editor-styles-wrapper .link-list__list a {
+	color: var(--color-theme-white);
+}
+
+.editor-styles-wrapper .link-list__list a:hover,
+.editor-styles-wrapper .link-list__list a:focus-visible {
+	color: var(--color-theme-yellow);
+}

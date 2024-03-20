@@ -1,0 +1,29 @@
+{
+    "name": "acf/hero-primary",
+    "title": "Hero - Primary",
+    "description": "Primary Hero shown at the top of the page. Allows for a large headline.",
+	"style": [ "block-hero-primary" ],
+    "script": [ "block-hero-primary"  ],
+    "editorStyle": "file:./editor-style.css",
+    "category": "butler",
+    "icon": "text-page",
+    "apiVersion": 2,
+    "keywords": [ "headline", "primary hero", "large hero", "vertical text", "header"],
+    "acf": {
+		"mode": "preview",
+		"renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "align": [ "full" ],
+        "anchor": true,
+        "alignContent": false,
+        "color": false
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "full"
+        }
+    }
+}

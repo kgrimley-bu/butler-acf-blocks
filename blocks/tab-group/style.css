@@ -1,0 +1,12 @@
+.tabgroup-headline h2 {
+	font-size: var(--font-size-largest);
+	font-weight: 600;
+	margin-bottom: 1rem;
+	text-transform: uppercase;
+}
+@media (max-width: 768px) {
+	.tabgroup-headline h2 {
+		font-size: var(--font-size-mobile-larger);
+		line-height: 0.9;
+	}
+}

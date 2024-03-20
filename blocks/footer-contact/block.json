@@ -1,0 +1,26 @@
+{
+    "name": "acf/footer-contact",
+    "title": "Footer Contact",
+    "description": "Display contact infromation at the bottom of a page.",
+	"style": [ 
+        "block-footer-contact",
+        "component-social-media" 
+    ],
+    "category": "butler",
+    "icon": "text-page",
+    "apiVersion": 2,
+    "keywords": [ "contact", "info", "infromation"],
+    "acf": {
+		"mode": "preview",
+		"renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "align": [ "wide" ],
+        "anchor": true,
+        "alignContent": false,
+        "color": false
+    },
+    "attributes": {
+    }
+}

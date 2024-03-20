@@ -1,0 +1,28 @@
+{
+    "name": "acf/hero-alternate",
+    "title": "Hero - Alternate",
+    "description": "This Hero should be reserved for special instances such as college landing pages for its bold, impactful presence. Headlines should be very short.",
+	"style": [ "block-hero-alternate", "component-social-media" ],
+    "script": [ "plyr", "block-hero-alternate" ],
+    "category": "butler",
+    "icon": "text-page",
+    "apiVersion": 2,
+    "keywords": [ "alt hero", "alt", "alternative hero", "alternative", "short hero", "small hero", "headline" ],
+    "acf": {
+		"mode": "preview",
+		"renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "align":[ "full" ],
+        "anchor": true,
+        "alignContent": false,
+        "color": false
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "full"
+        }
+    }
+}

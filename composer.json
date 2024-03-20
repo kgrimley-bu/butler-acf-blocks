@@ -1,0 +1,14 @@
+{
+  "name": "butler/butler-acf-blocks",
+  "description": "A collection of custom blocks built with ACF and used across Butler WP sites.",
+  "type": "wordpress-plugin",
+  "license": "GPL-3.0-or-later",
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  },
+  "require-dev": {
+    "wp-coding-standards/wpcs": "^3.0"
+  }
+}

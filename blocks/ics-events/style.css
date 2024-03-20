@@ -1,0 +1,71 @@
+.aie-flex-container {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.aie-flex-row {
+	flex-direction: row;
+	flex: 0 0 auto;
+	border-bottom: 1px solid var(--color-theme-grey);
+	justify-content: space-between;
+}
+
+.aie-flex-column {
+	flex-direction: column;
+}
+
+.aie-row-item {
+	padding: 0.5rem;
+	font-size: var(--font-size-regular);
+	align-self: center;
+}
+
+form.aie-row-item {
+	line-height: .1;
+}
+
+.aie-row-description {
+	flex-grow: 1;
+}
+
+.aie-row-background {
+	color: #000;
+	background-color: var(--color-theme-grey-light);
+}
+
+.aie-checkbox {
+	width: 3rem;
+	height: 1.1rem;
+}
+
+.aie-download-button {
+	font-family: var(--global-font-family);
+	font-weight: 400;
+	font-size: calc(var(--font-size-regular) + .125rem);
+	color: var(--color-theme-primary);
+	background-color: transparent;
+	border: solid 2px var(--color-theme-primary);
+	margin-top: 2rem;
+	border-radius: 40px;
+	width: fit-content;
+	transition: all .1s ease-in;
+	align-self: flex-end;
+}
+
+.aie-download-button:hover{
+	border-color: var(--color-theme-primary);
+	background-color: var(--color-theme-primary);
+	color: var(--color-theme-white);
+}
+
+.aie-download-button span {
+	margin-left: 1rem;
+}
+
+.aie-date {
+	font-family: var(--global-font-family);
+}
+
+.aie-description {
+	font-family: var(--global-font-family);
+}

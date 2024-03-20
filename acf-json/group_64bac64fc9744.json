@@ -1,0 +1,112 @@
+{
+    "key": "group_64bac64fc9744",
+    "title": "WYSIWYG",
+    "fields": [
+        {
+            "key": "field_64bac64fd8b5b",
+            "label": "Sidebar Menu",
+            "name": "sidebar_menu",
+            "aria-label": "",
+            "type": "post_object",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_field": "",
+            "hide_label": "",
+            "hide_instructions": "",
+            "hide_required": "",
+            "acfe_save_meta": 0,
+            "post_type": [
+                "page_menu"
+            ],
+            "post_status": "",
+            "taxonomy": "",
+            "return_format": "id",
+            "multiple": 0,
+            "max": "",
+            "save_custom": 0,
+            "save_post_status": "publish",
+            "acfe_add_post": 0,
+            "acfe_edit_post": 0,
+            "acfe_bidirectional": {
+                "acfe_bidirectional_enabled": "0"
+            },
+            "acfe_settings": "",
+            "acfe_validate": "",
+            "allow_null": 1,
+            "instruction_placement": "",
+            "acfe_permissions": "",
+            "ui": 1,
+            "save_post_type": "",
+            "min": ""
+        },
+        {
+            "key": "field_64bac64fd8b60",
+            "label": "Align Content",
+            "name": "align_content",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "If no menu is selected, you may have content align like there was.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_64bac64fd8b5b",
+                        "operator": "==empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "acfe_permissions": "",
+            "message": "Align content",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": "",
+            "acfe_settings": "",
+            "acfe_validate": "",
+            "style": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "butler\/wysiwyg"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_autosync": [
+        "json"
+    ],
+    "acfe_form": 1,
+    "acfe_display_title": "",
+    "acfe_permissions": "",
+    "acfe_meta": {
+        "611c230de80ac": {
+            "acfe_meta_key": "",
+            "acfe_meta_value": ""
+        }
+    },
+    "acfe_note": "",
+    "modified": 1697024485
+}

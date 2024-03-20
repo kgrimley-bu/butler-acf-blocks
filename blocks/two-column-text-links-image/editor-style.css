@@ -1,0 +1,16 @@
+.editor-styles-wrapper .two-column-text-links-image__imageWrapper {
+	width: calc(50% - 6px);
+}
+
+.editor-styles-wrapper .two-column-text-links-image__links .button-solid:nth-of-type(even) .button-solid__label {
+	color: var(--color-theme-primary);
+}
+
+.editor-styles-wrapper .two-column-text-links-image__links .button-solid:nth-of-type(even):hover .button-solid__label,
+.editor-styles-wrapper .two-column-text-links-image__links .button-solid:nth-of-type(even):focus-visible .button-solid__label {
+	color: var(--color-theme-yellow);
+}
+
+.editor-styles-wrapper .two-column-text-links-image__media-img {
+	height: 100%;
+}

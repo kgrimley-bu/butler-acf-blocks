@@ -1,0 +1,24 @@
+{
+    "name": "acf/contact-form",
+    "title": "Contact Form",
+    "description": "Contact Form using slate form embed",
+    "style": ["block-contact-form", "component-headline-highlight"],
+    "script": ["block-contact-form"],
+    "editorStyle": "file:./editor.css",
+    "category": "butler",
+    "icon": "text-page",
+    "apiVersion": 2,
+    "keywords": ["primacy"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "align": [ "full" ],
+        "anchor": true,
+        "alignContent": false,
+        "color": false
+    },
+    "attributes": {}
+}

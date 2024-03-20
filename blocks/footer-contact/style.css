@@ -1,0 +1,86 @@
+.footer-contact {
+}
+
+.footer-contact__wrapper {
+	border: 2px solid var(--color-theme-grey);
+	padding: 60px;
+	position: relative;
+	row-gap: 24px;
+}
+
+@media (min-width: 768px) {
+	.footer-contact__wrapper {
+		padding: 60px 60px;
+	}
+}
+
+@media (min-width: 1280px) {
+	.footer-contact__wrapper {
+		padding: 60px 120px;
+	}
+}
+
+.footer-contact__wrapper::before {
+	content: '';
+	display: block;
+	background-image: url('../../assets/images/blue-dashes-vertical.svg');
+	background-repeat: repeat-y;
+	width: 24px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+}
+
+.footer-contact__headline {
+	grid-column: span 12 / span 12;
+	margin-bottom: 24px;
+	color: var(--color-theme-blue);
+	font-family: var(--secondary-font-family);
+	font-size: var(--font-size-d3);
+	line-height: .89;
+	letter-spacing: 1px;
+
+}
+
+.footer-contact__column {
+	grid-column: span 12 / span 12;
+}
+
+@media (min-width: 768px) {
+	.footer-contact__column {
+		grid-column: span 6 / span 6;
+		grid-gap: 24px;
+	}
+}
+
+@media (min-width: 1024px) {
+	.footer-contact__column {
+		grid-column: span 3 / span 3;
+	}
+}
+
+.footer-contact__column a {
+	color: var(--color-theme-blue);
+	text-decoration: underline;
+}
+
+.footer-contact__column a:hover {
+	color: var(--color-theme-pink);
+}
+
+.footer-contact__columnHeader {
+	font-weight: 700;
+	font-size: 18px;
+	color: var(--color-theme-primary);
+	margin-bottom: 24px;
+}
+
+.footer-contact__columnContent {
+	line-height: 1.4em;
+}
+
+.footer-contact__socialMedia .social-media__menuIcon {
+	--social-media-color-fill: var(--color-theme-blue-bright);
+	--social-media-color-fill-hover: var(--color-theme-primary);
+}

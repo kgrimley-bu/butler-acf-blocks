@@ -1,0 +1,28 @@
+{
+    "name": "butler/gallery-modal",
+    "title": "Gallery - Modal",
+    "description": "An eye-catching and large-scale way to show off a number of Butler photos. It has a looping piece of brand copy, space for a medium length headline, and a CTA to draw users to open up the modal window to view photos and their captions.",
+	"style": [ "block-gallery-modal", "swiper-main" ],
+    "script": [ "swiper", "block-gallery-modal"  ],
+    "category": "butler",
+    "icon": "text-page",
+    "apiVersion": 2,
+    "keywords": [ "modal picture", "modal", "gallery swipe", "image swiper", "collage", "swipable collage", "gallery" ],
+    "acf": {
+		"mode": "preview",
+		"renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "align": [ "full" ],
+        "anchor": true,
+        "alignContent": false,
+        "color": false
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "full"
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "name": "acf/callout-two-column-billboard",
+    "title": "Two column: Billboard",
+    "description": "This block can display a number of related card callouts that contain an image, headline, description, and button.",
+    "style": [
+        "block-callout-two-column-billboard",
+        "component-headline-highlight",
+        "component-button"
+    ],
+    "editorStyle": "file:./editor-style.css",
+    "script": "",
+    "category": "butler",
+    "icon": "carrot",
+    "apiVersion": 2,
+    "keywords": [ "billboard", "image", "card", "cards", "callout" ],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "anchor": true,
+        "alignContent": false,
+        "color": false,
+        "inserter": true
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "full"
+        }
+    }
+}

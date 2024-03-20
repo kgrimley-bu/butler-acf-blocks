@@ -1,0 +1,158 @@
+.sidebar-menu {
+	grid-column: span 12 / span 12;
+	position: relative;
+	z-index: 1;
+}
+
+@media (min-width: 768px) {
+	.sidebar-menu {
+		grid-column: span 4 / span 4;
+		order: 2;
+		grid-row-start: 1;
+		align-self: flex-start;
+	}
+}
+
+@media (min-width: 1024px) {
+	.sidebar-menu {
+		grid-column: span 3 / span 3;
+	}
+}
+
+.sidebar-menu__wrapper {
+	background-color: var(--color-theme-primary);
+	padding: 20px 20px 25px 20px;
+	background-image: url('../../assets/images/blue-dashes.svg');
+	background-size: auto 13px;
+	background-position: left bottom;
+	background-repeat: repeat-x;
+}
+
+
+.sidebar-menu--hasHero {
+	margin-top: -40px;
+}
+
+@media (min-width: 768px) {
+	.sidebar-menu--hasHero {
+		margin-top: -55px;
+	}
+}
+
+@media (min-width: 1280px) {
+	.sidebar-menu--hasHero {
+		margin-top: -55px;
+	}
+}
+
+.sidebar-menu__header {
+	font-family: var(--secondary-font-family);
+	color: var(--color-theme-blue-bright);
+	font-size: 22px;
+	line-height: normal;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 5px;
+	font-weight: 600;
+	letter-spacing: 0.04rem;
+	text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+	.sidebar-menu__header {
+		font-size: 24px;
+		margin-bottom: 0;
+	}
+}
+
+.sidebar-menu__mobileToggle {
+	width: 32px;
+	height: 32px;
+	margin-top: -4px;
+	background-image: url('../../assets/images/nav_main_icon_open.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	float: right;
+	border-radius: 50%;
+	padding-right: 0;
+	border: none;
+}
+
+@media (min-width: 768px) {
+	.sidebar-menu__mobileToggle {
+		display: none;
+	}
+}
+
+.sidebar-menu__mobileToggle[aria-expanded="true"] {
+	background-image: url('../../assets/images/nav_main_icon_close_white.png');
+}
+
+.entry-content .sidebar-menu__list,
+.editor-styles-wrapper .sidebar-menu__list {
+	margin-top: 12px;
+	margin-bottom: 0;
+	list-style: none;
+	padding-left: 0;
+	padding-right: 0;
+	text-decoration: none;
+}
+
+@media (min-width: 768px) {
+	.entry-content .sidebar-menu__list {
+		display: block;
+	}
+}
+
+.sidebar-menu__listItem {
+	border-top: 1px solid var(--color-theme-blue-bright);
+	padding: 10px 0;
+}
+
+.hide-overflow {
+	display: none;
+}
+
+.sidebar-menu__listLink,
+.editor-styles-wrapper .sidebar-menu__listLink {
+	color: var(--color-theme-white);
+	text-decoration: none;
+}
+
+.sidebar-menu__listLink:hover {
+	color: var(--color-theme-yellow);
+	text-decoration: underline;
+}
+
+.sidebar-menu__desktopToggle {
+	display: none;
+	margin: 20px;
+	text-decoration: underline;
+	line-height: 1em;
+	background: initial;
+	border: none;
+	font-size: initial;
+	padding: initial;
+}
+
+.sidebar-menu__desktopToggle::after {
+	content: '';
+	display: inline-block;
+	background-image: url('../../assets/images/nav_main_icon_open.png');
+	background-size: contain;
+	width: 21px;
+	height: 21px;
+	margin-left: 1.5ch;
+}
+
+.sidebar-menu__desktopToggle[aria-expanded="true"]::after {
+	background-image: url('../../assets/images/nav_main_icon_close.png');
+}
+
+@media (min-width: 768px) {
+	.sidebar-menu__desktopToggle {
+		display: inline-flex;
+		align-items: center;
+	}
+}

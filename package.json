@@ -1,0 +1,23 @@
+{
+	"name": "butler-acf-blocks",
+	"version": "1.0.0",
+	"description": "ACF Block plugin",
+	"author": "Butler University",
+	"license": "GPL-2.0-or-later",
+	"scripts": {
+		"build:news": "wp-scripts build --webpack-src-dir=blocks/news/src --output-path=blocks/news/build",
+		"start:news": "wp-scripts start --webpack-src-dir=blocks/news/src --output-path=blocks/news/build",
+		"lint:news": "wp-scripts lint-js --webpack-src-dir=blocks/news/src --output-path=blocks/news/build",
+		"bundle": "npm run build:news",
+		"zip": "wp-scripts plugin-zip"
+	},
+	"devDependencies": {
+		"@tsconfig/recommended": "^1.0.2",
+		"@types/jquery": "^3.5.16",
+		"@wordpress/scripts": "^26.6.0",
+		"typescript": "^5.0.4"
+	},
+	"dependencies": {
+		"jquery": "^3.7.0"
+	}
+}

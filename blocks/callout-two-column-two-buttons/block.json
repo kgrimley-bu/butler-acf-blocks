@@ -1,0 +1,31 @@
+{
+    "name": "acf/callout-two-column-two-buttons",
+    "title": "Two column: Two buttons",
+    "description": "This block can display a header, decription, and two link buttons.",
+    "style": [
+        "block-callout-two-column-two-buttons",
+        "component-button-link-right"
+    ],
+    "editorStyle": "file:./editor.css",
+    "category": "butler",
+    "icon": "carrot",
+    "apiVersion": 2,
+    "keywords": [ "billboard", "image", "buttons", "two column buttons" ],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "align": [ "full" ],
+        "anchor": true,
+        "alignContent": false,
+        "inserter": true
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "full"
+        }
+    }
+}

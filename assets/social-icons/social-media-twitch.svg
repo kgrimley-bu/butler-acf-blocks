@@ -1,0 +1,10 @@
+<svg class="social-media__menuIcon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 2600 2600" xml:space="preserve" focusable="false">
+	<g>
+		<g id="Layer_1-2">
+			<path class="social-media__iconFill" d="M500,0L0,500v1800h600v500l500-500h400l900-900V0H500z M2200,1300l-400,400h-400l-350,350v-350H600V200h1600
+			V1300z"></path>
+			<rect x="1700" y="550" class="social-media__iconFill" width="1" height="3"></rect>
+			<rect x="1150" y="550" class="social-media__iconFill" width="1" height="3"></rect>
+		</g>
+	</g>
+</svg>

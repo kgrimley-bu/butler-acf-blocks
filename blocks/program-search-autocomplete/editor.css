@@ -1,0 +1,11 @@
+#editor .program-search-majors {
+	.wp-block-heading {
+		text-transform: uppercase;
+		font-weight: 600;
+		color: var(--color-theme-primary);
+	}
+
+	.wp-block-image {
+		margin-bottom: 30px;
+	}
+}

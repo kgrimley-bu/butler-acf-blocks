@@ -1,0 +1,13 @@
+.editor-styles-wrapper h2.full-width-video-image__outlined {
+	font-size: 314px;
+	line-height: 0.8em;
+	font-weight: 600;
+}
+
+.editor-styles-wrapper .full-width-video-image__outlined-line-1 {
+	left: initial;
+}
+
+.editor-styles-wrapper .full-width-video-image__outlined-line-2 {
+	right: initial;
+}

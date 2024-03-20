@@ -1,0 +1,15 @@
+.editor-styles-wrapper .callout-one-column-two-buttons {
+	margin-left: 0;
+	margin-right: 0;
+	max-width: 100%;
+	width: 100%;
+}
+
+.editor-styles-wrapper img.callout-one-column-two-buttons__bg-image {
+	height: 100%;
+}
+
+.wp-block[data-align="full"] .callout-one-column-two-buttons.block-precedence {
+	padding-left: 0;
+	padding-right: 0;
+}

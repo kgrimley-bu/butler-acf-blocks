@@ -1,0 +1,26 @@
+.editor-styles-wrapper {
+	.responsive-tabs.vertical {
+		& > .left:before {
+			z-index: unset;
+		}
+		.editor-message {
+			display: block;
+			font-size: 1rem;
+			position: absolute;
+			top: 0;
+			left: 125px;
+			background: white;
+			padding: 2px 4px;
+		}
+	}
+
+	ul.resp-tabs-list {
+		z-index: 1;
+		height: 100%;
+		list-style: none;
+		margin-bottom: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+}

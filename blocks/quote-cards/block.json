@@ -1,0 +1,27 @@
+{
+    "name": "butler/quote-cards",
+    "title": "Quote Cards",
+    "description": "This is the wrapper for a carousel of quote cards",
+    "style": ["block-quote-cards"],
+    "editorStyle": "file:./editor.css",
+    "script": ["block-quote-cards"],
+    "category": "butler",
+    "icon": "",
+    "apiVersion": 2,
+    "keywords": ["quote", "cards", "quote-cards"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "align": false,
+        "align_text": false,
+        "multiple": true,
+        "color": {
+            "background": false
+        },
+        "jsx": true
+    },
+    "attributes": {}
+}

@@ -1,0 +1,25 @@
+{
+    "name": "acf/callout-three-column-text-action-links-right",
+    "title": "Three Columns: Text and Links",
+    "description": "Block with a heading, text, and links in consecutive columns",
+    "style": "block-callout-three-column-text-action-links-right",
+    "editorStyle": "file:./editor-style.css",
+    "script": "",
+    "category": "butler",
+    "icon": "button",
+    "apiVersion": 2,
+    "keywords": [ "button", "buttons", "text", "links" ],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "align": [ "wide" ],
+        "anchor": true,
+        "alignContent": false,
+        "color": false
+    },
+    "attributes": {
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "name": "butler/ticker",
+    "title": "Scrolling Ticker",
+    "description": "Loops text.",
+	"style": [ "block-ticker" ],
+    "script": [ "block-ticker"  ],
+    "category": "butler",
+    "icon": "text-page",
+    "apiVersion": 2,
+    "keywords": [ "scrolling text", "headline", "looping text", "heading" ],
+    "acf": {
+		"mode": "preview",
+		"renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "align": [ "full" ],
+        "anchor": true,
+        "alignContent": false,
+        "color": false
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "full"
+        }
+    }
+}

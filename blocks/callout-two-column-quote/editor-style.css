@@ -1,0 +1,17 @@
+.editor-styles-wrapper .callout-two-column-quote__media-image {
+	height: 100%;
+}
+
+.editor-styles-wrapper .callout-two-column-quote__heading,
+.editor-styles-wrapper .callout-two-column-quote__links .button-link-right {
+	color: var(--color-theme-white);
+}
+
+.editor-styles-wrapper .callout-two-column-quote__heading:hover,
+.editor-styles-wrapper .button-link-right:hover {
+	color: var(--hover-color);
+}
+
+.editor-styles-wrapper blockquote.callout-two-column-quote__quote-text {
+	border-left: none;
+}

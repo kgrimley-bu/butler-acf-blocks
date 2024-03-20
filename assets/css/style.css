@@ -1,0 +1,20 @@
+/* h tag sizes */
+.headline-h1 {
+   font-size: var(--font-size-largest);
+}
+
+.entry-content .wp-block-heading:not(:first-child) {
+   font-size: var(--font-size-largest);
+}
+
+.color-overlay-blue-bright {
+   background-color: var(--color-theme-blue-bright);
+}
+
+.has-top-spacing {
+   margin-top: 4rem !important;
+}
+
+.has-bottom-spacing {
+   margin-bottom: 4rem !important;
+}

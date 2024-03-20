@@ -1,0 +1,36 @@
+{
+    "name": "butler/wysiwyg",
+    "title": "WYSIWYG",
+    "description": "Basic building block for all pages. Includes option for sidebar menu.",
+    "style": [
+        "block-wysiwyg",
+        "component-sidebar-menu"
+    ],
+    "editorStyle": "file:./editor-style.css",
+    "script": [
+        "component-sidebar-menu"
+    ],
+    "category": "butler",
+    "icon": "carrot",
+    "apiVersion": 2,
+    "keywords": [ "content", "wysiwyg", "menu", "sidebar", "navigation" ],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "align": [ "full", "wide" ],
+        "anchor": true,
+        "alignContent": false,
+        "color": {
+            "link": true
+        }
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "full"
+        }
+    }
+}

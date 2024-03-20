@@ -1,0 +1,26 @@
+{
+    "name": "acf/callout-two-column-header-text",
+    "title": "Two column: Header on left; text on right",
+    "description": "This block can display a header and text on the right",
+    "style": [
+        "block-callout-two-column-header-text"
+    ],
+    "editorStyle": "file:./editor.css",
+    "category": "butler",
+    "icon": "carrot",
+    "apiVersion": 2,
+    "keywords": [ "header", "text", "two column" ],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "render.php"
+    },
+    "styles": [],
+    "supports": {
+        "align": [ "full" ],
+        "anchor": true,
+        "alignContent": false,
+        "inserter": true
+    },
+    "attributes": {
+    }
+}
